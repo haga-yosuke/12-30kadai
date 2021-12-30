@@ -1,3 +1,4 @@
+
 .body{
     margin:0;
     padding:0;
@@ -15,6 +16,7 @@
     margin-inline-end: 0px;
     font-weight: bold;
     text-align: center;
+    color: gold;
 }
 
 /* ボックス８１マス */
@@ -24,7 +26,7 @@
 	flex-wrap: wrap;
 }
 
-/* ボックス１つ目 */
+/* ボックスレイアウト */
 .mandalart {
         width: 400px;
         height: 400px;
@@ -34,6 +36,8 @@
         display: block;
     text-align: center;
     }
+
+/* ボックス１ */
 .box:hover {
         background-color: white;
     }
@@ -51,97 +55,1383 @@
     }
 
 /* ボックス２ */
-/* ボックス３
-ボックス４
-ボックス５
-ボックス６
-ボックス７
-ボックス８
-ボックス９
-ボックス１０
-ボックス１１
-ボックス１２
+.box2:hover {
+        background-color: white;
+    }
+.box2 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
 
-ボックス１３
-ボックス１４
-ボックス１５
-ボックス１６
-ボックス１７
-ボックス１８
-ボックス１９
-ボックス２０
-ボックス２１
-ボックス２２
+.cell2 {
+        display:table;
+        background-color: #efefef;
+    }
 
-ボックス２3
-ボックス２４
-ボックス２５
-ボックス２６
-ボックス２７
-ボックス２８
-ボックス２９
-ボックス３０
-ボックス３１
-ボックス３２
+/* ボックス３ */
+.box3:hover {
+        background-color: white;
+    }
+.box3 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
 
-ボックス３３
-ボックス３４
-ボックス３５
-ボックス３６
-ボックス３７
-ボックス３８
-ボックス３９
-ボックス４０
-ボックス４１
-ボックス４２
+.cell3 {
+        display:table;
+        background-color: #efefef;
+    }
 
-ボックス４３
-ボックス４４
-ボックス４５
-ボックス４６
-ボックス４７
-ボックス４８
-ボックス４９
-ボックス５０
-ボックス５１
-ボックス５２
+/* ボックス４ */
+.box4:hover {
+        background-color: white;
+    }
+.box4 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
 
-ボックス５２
-ボックス５３
-ボックス５４
-ボックス５５
-ボックス５６
-ボックス５７
-ボックス５８
-ボックス５９
-ボックス６０
-ボックス６１
+.cell4 {
+        display:table;
+        background-color: #efefef;
+    }
 
-ボックス６２
-ボックス６３
-ボックス６４
-ボックス６５
-ボックス６６
-ボックス６７
-ボックス６８
-ボックス６９
-ボックス７０
-ボックス７１
+/* ボックス５中 */
+.box5:hover {
+        background-color: white;
+    }
+.box5 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
 
-ボックス７２
-ボックス７３
-ボックス７４
-ボックス７５
-ボックス７６
-ボックス７７
-ボックス７８
-ボックス７９
-ボックス８０
-ボックス８１ */
-
-.cell-center {
+.cell-center5 {
         display:table;
         background-color: #fff;
+    }
+
+/* ボックス６ */
+.box6:hover {
+        background-color: white;
+    }
+.box6 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell6 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７ */
+.box7:hover {
+        background-color: white;
+    }
+.box7 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell7 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス８ */
+.box8:hover {
+        background-color: white;
+    }
+.box8 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell8 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス９ */
+.box9:hover {
+        background-color: white;
+    }
+.box9 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell9 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス１０ */
+.box10:hover {
+        background-color: white;
+    }
+.box10 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell10 {
+        display:table;
+        background-color: #efefef;
+    }
+
+
+/* ボックス１１ */
+.box11:hover {
+        background-color: white;
+    }
+.box11 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell11 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス１２ */
+.box12:hover {
+        background-color: white;
+    }
+.box12 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell12 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス１３ */
+.box13:hover {
+        background-color: white;
+    }
+.box13 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell13 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス１４中 */
+.box14:hover {
+        background-color: white;
+    }
+.box14 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center14 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス１５ */
+.box15:hover {
+        background-color: white;
+    }
+.box15 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell15 {
+        display:table;
+        background-color: #efefef;
+    }
+
+
+/* ボックス１６ */
+.box16:hover {
+        background-color: white;
+    }
+.box16 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell16 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス１７ */
+.box17:hover {
+        background-color: white;
+    }
+.box17 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell17 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス１８ */
+.box18:hover {
+        background-color: white;
+    }
+.box18 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell18 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス１９ */
+.box19:hover {
+        background-color: white;
+    }
+.box19 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell19 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２０ */
+.box20:hover {
+        background-color: white;
+    }
+.box20 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell20 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２１ */
+.box21:hover {
+        background-color: white;
+    }
+.box21 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell21 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２２ */
+.box22:hover {
+        background-color: white;
+    }
+.box22 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell22 {
+        display:table;
+        background-color: #efefef;
+    }
+
+
+/* ボックス２3中 */
+.box23:hover {
+        background-color: white;
+    }
+.box23 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center23 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス２４ */
+.box24:hover {
+        background-color: white;
+    }
+.box24 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell24 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２５ */
+.box25:hover {
+        background-color: white;
+    }
+.box25 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell25 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２６ */
+.box26:hover {
+        background-color: white;
+    }
+.box26 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell26 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２７ */
+.box27:hover {
+        background-color: white;
+    }
+.box27 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell27 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２８ */
+.box28:hover {
+        background-color: white;
+    }
+.box28 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell28 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス２９ */
+.box29:hover {
+        background-color: white;
+    }
+.box29 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell29 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３０ */
+.box30:hover {
+        background-color: white;
+    }
+.box30 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell30 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３１ */
+.box31:hover {
+        background-color: white;
+    }
+.box31 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell31 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３２中 */
+.box32:hover {
+        background-color: white;
+    }
+.box32 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center32 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス３３ */
+.box33:hover {
+        background-color: white;
+    }
+.box33 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell33 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３４ */
+.box34:hover {
+        background-color: white;
+    }
+.box34 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell34 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３５ */
+.box35:hover {
+        background-color: white;
+    }
+.box35 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell35 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３６ */
+.box36:hover {
+        background-color: white;
+    }
+.box36 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell36 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３７ */
+.box37:hover {
+        background-color: white;
+    }
+.box37 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell37 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３８ */
+.box38:hover {
+        background-color: white;
+    }
+.box38 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell38 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス３９ */
+.box39:hover {
+        background-color: white;
+    }
+.box39 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell39 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４０ */
+.box40:hover {
+        background-color: white;
+    }
+.box40 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell40 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４１中 */
+.box41:hover {
+        background-color: white;
+    }
+.box41 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center41 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス４２ */
+.box42:hover {
+        background-color: white;
+    }
+.box42 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell42 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４３ */
+.box43:hover {
+        background-color: white;
+    }
+.box43 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell43 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４４ */
+.box44:hover {
+        background-color: white;
+    }
+.box44 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell44 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４５ */
+.box45:hover {
+        background-color: white;
+    }
+.box45 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell45 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４６ */
+.box46:hover {
+        background-color: white;
+    }
+.box46 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell46 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４７ */
+.box47:hover {
+        background-color: white;
+    }
+.box47 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell47 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４８ */
+.box48:hover {
+        background-color: white;
+    }
+.box48 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell48 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス４９ */
+.box49:hover {
+        background-color: white;
+    }
+.box49 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell49 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５０中 */
+.box50:hover {
+        background-color: white;
+    }
+.box50 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center50 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス５１ */
+.box51:hover {
+        background-color: white;
+    }
+.box51 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell51 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５２ */
+.box52:hover {
+        background-color: white;
+    }
+.box52 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell52 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５２ */
+.box52:hover {
+        background-color: white;
+    }
+.box52 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell52 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５３ */
+.box53:hover {
+        background-color: white;
+    }
+.box53 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell53 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５４ */
+.box54:hover {
+        background-color: white;
+    }
+.box54 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell54 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５５ */
+.box55:hover {
+        background-color: white;
+    }
+.box55 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell55 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５６ */
+.box56:hover {
+        background-color: white;
+    }
+.box56 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell56 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５７ */
+.box57:hover {
+        background-color: white;
+    }
+.box57 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell57 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５８ */
+.box58:hover {
+        background-color: white;
+    }
+.box58 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell58 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス５９中 */
+.box59:hover {
+        background-color: white;
+    }
+.box59 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center59 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス６０ */
+.box60:hover {
+        background-color: white;
+    }
+.box60 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell60 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６１ */
+.box61:hover {
+        background-color: white;
+    }
+.box61 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell61 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６２ */
+.box62:hover {
+        background-color: white;
+    }
+.box62 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell62 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６３ */
+.box63:hover {
+        background-color: white;
+    }
+.box63 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell63 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６４ */
+.box64:hover {
+        background-color: white;
+    }
+.box64 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell64 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６５ */
+.box65:hover {
+        background-color: white;
+    }
+.box65 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell65 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６６ */
+.box66:hover {
+        background-color: white;
+    }
+.box66 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell66 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６７ */
+.box67:hover {
+        background-color: white;
+    }
+.box67 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell67 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス６８中 */
+.box68:hover {
+        background-color: white;
+    }
+.box68 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center68 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス６９ */
+.box69:hover {
+        background-color: white;
+    }
+.box69 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell69 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７０ */
+.box70:hover {
+        background-color: white;
+    }
+.box70 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell70 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７１ */
+.box71:hover {
+        background-color: white;
+    }
+.box71 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell71 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７２ */
+.box72:hover {
+        background-color: white;
+    }
+.box72 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell72 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７３ */
+.box73:hover {
+        background-color: white;
+    }
+.box73 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell73 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７４ */
+.box74:hover {
+        background-color: white;
+    }
+.box74 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell74 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７５ */
+.box75:hover {
+        background-color: white;
+    }
+.box75 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell75 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７６ */
+.box76:hover {
+        background-color: white;
+    }
+.box76 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell76 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７７中 */
+.box77:hover {
+        background-color: white;
+    }
+.box77 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell-center77 {
+        display:table;
+        background-color: #fff;
+    }
+
+/* ボックス７８ */
+.box78:hover {
+        background-color: white;
+    }
+.box78 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell78 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス７９ */
+.box79:hover {
+        background-color: white;
+    }
+.box79 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell79 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス８０ */
+.box80:hover {
+        background-color: white;
+    }
+.box80 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell80 {
+        display:table;
+        background-color: #efefef;
+    }
+
+/* ボックス８１ */
+.box81:hover {
+        background-color: white;
+    }
+.box81 {
+        float: left;
+        text-align: center;
+        width: 126px;
+        height: 128px;
+        border: 1px solid #999;
+    }
+
+.cell81 {
+        display:table;
+        background-color: #efefef;
     }
 
 
